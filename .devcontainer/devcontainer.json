@@ -1,15 +1,4 @@
 {
-  "name": "Shopware Developer Portal",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "features": {
-  },
-  "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "README.md",
-      ]
-    }
-  }
+  "name": "Anythink Development Container",
+  "image": "public.ecr.aws/v0a2l7y2/wilco/anythink-devcontainer:latest"
 }
